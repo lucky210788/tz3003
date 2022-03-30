@@ -1,0 +1,50 @@
+$font_family: $primary_font;
+$font_size: 14px;
+$font_weight: bold;
+$font_style: normal;
+$text_color: #fff;
+$bg_color: #006c86;
+$border_radius: 4px;
+$padding: 0 65px;
+$width: 175px;
+
+.btn-main {
+  display: block;
+  line-height: 31px;
+  width: $width;
+  cursor: pointer;
+  border: 1px solid $bg_color;
+  border-radius: $border_radius;
+  text-transform: uppercase;
+  color: $text_color;
+  background-color: $bg_color;
+  user-select: none;
+  outline: none;
+  -webkit-appearance: none;
+  transition: all .2s ease;
+  font-family: $font_family;
+  font-size: $font_size;
+  font-weight: $font_weight;
+  font-style: $font_style;
+  &:hover {
+    background-color: inherit;
+    color: $bg_color;
+  }
+  &__form {
+    margin-top: 5px;
+  }
+  &__more-block {
+    margin: auto;
+  }
+}
+
+@include media('screen', '<768px') {
+  .btn-main {
+    &__form {
+      margin-top: 3px;
+    }
+    &__more-block {
+      margin: 0;
+    }
+  }
+}

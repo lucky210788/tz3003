@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link rel="stylesheet" href="public/bundle.css?v=1.001"/>
+</head>
+<body>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header-lang">
+                <a href="#" class="header-lang__btn">Eng</a>
+                <a href="#" class="header-lang__btn">Aze</a>
+                <a href="#" class="header-lang__btn header-lang__btn__active">Рус</a>
+            </div>
+        </div>
+    </div>
+    <div class="header__middle">
+        <div class="container">
+            <a href="#" class="logo">
+                <picture>
+                    <source srcset="public/images/logo-mob.jpg" media="(max-width: 979px)">
+                    <img src="public/images/logo.png" alt="logo" class="logo__img" title="logo">
+                </picture>
+            </a>
+            <ul class="header-links">
+                <li class="header-links__item">
+                    <a href="#">Lorem ipsum dolor sit </a>
+                </li>
+                <li class="header-links__item">
+                    <a href="#">Lorem ipsum dolor</a>
+                </li>
+                <li class="header-links__item">
+                    <a href="#">Lorem ipsum dolor</a>
+                </li>
+                <li class="header-links__item">
+                    <a href="#">Lorem ipsum</a>
+                </li>
+                <li class="header-links__item">
+                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                </li>
+                <li class="header-links__item">
+                    <a href="#">Lorem ipsum dolor sit </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="header-menu">
+        <div class="container">
+            <button type="button" class="burger-menu-btn">
+                <span class="burger-menu-btn__lines"></span>
+                меню
+            </button>
+            <ul class="menu mob-hide">
+                <li class="menu__item"><a href="#">ПУНКТ МЕНЮ</a></li>
+                <li class="menu__item"><a href="#">Длинный пункт меню</a></li>
+                <li class="menu__item"><a href="#">очень Длинный пункт меню</a></li>
+                <li class="menu__item"><a href="#">еще пунк</a></li>
+                <li class="menu__item"><a href="#">п. меню</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <main>
+        <section class="form-section">
+            <form class="main-form">
+                <legend class="main-form__legend">Form</legend>
+                <div class="main-form__col">
+                    <label for="textInput1" class="main-form__label">Label #1</label>
+                    <input type="text" id="textInput1" class="main-form__control">
+                </div>
+                <div class="main-form__row">
+                    <div class="main-form__col main-form__col__small">
+                        <label for="textInput2" class="main-form__label">Label #2</label>
+                        <input type="text" id="textInput2" class="main-form__control">
+                    </div>
+                    <div class="main-form__col main-form__col__small">
+                        <label for="textInput3" class="main-form__label">Label #3</label>
+                        <input type="text" id="textInput3" class="main-form__control">
+                    </div>
+                </div>
+                <div class="main-form__row">
+                    <div class="main-form__col main-form__col__small">
+                        <label for="textInput4" class="main-form__label">Label #4</label>
+                        <input type="text" id="textInput4" class="main-form__control">
+                    </div>
+                    <div class="main-form__col main-form__col__small">
+                        <label for="textInput5" class="main-form__label">Label #5</label>
+                        <input type="text" id="textInput5" class="main-form__control">
+                    </div>
+                </div>
+                <button type="submit" class="btn-main btn-main__form">submit</button>
+            </form>
+            <div class="more-block">
+                <p class="more-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <p class="more-block__text-bold">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <button type="submit" class="btn-main btn-main__more-block">more</button>
+            </div>
+        </section>
+        <section class="cards-section">
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__body">
+                    <p class="card__title">Lorem ipsum dolor sit </p>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__body">
+                    <p class="card__title">Lorem ipsum</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__body">
+                    <p class="card__title">Lorem ipsum dolor </p>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor Lorem </p>
+                </div>
+            </div>
+        </section>
+        <section class="small-blocks-section">
+            <div class="small-block"></div>
+            <div class="small-block"></div>
+            <div class="small-block"></div>
+            <div class="small-block"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <div class="small-block small-block__mob"></div>
+            <p class="read-more-btn"><span class="read-more-btn__more">MORE</span><span class="read-more-btn__hide">HIDE</span></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="big-line mob-hide">
+            <div class="big-line__top"></div>
+            <div class="big-line__bottom"></div>
+        </div>
+        <div class="footer__row">
+            <div class="footer-block footer-block__white"></div>
+            <div class="footer-block footer-block__white"></div>
+            <div class="footer-block footer-block__white"></div>
+        </div>
+        <div class="footer__row">
+            <div class="footer-block"></div>
+            <div class="footer-block"></div>
+            <div class="footer-block"></div>
+        </div>
+        <div class="footer__row footer__row__last">
+            <div class="footer-block footer-block__last"></div>
+            <div class="footer-block footer-block__last"></div>
+            <div class="footer-block footer-block__last"></div>
+        </div>
+    </footer>
+</div>
+<script src="public/bundle.js??v=31"></script>
+</body>
+</html>

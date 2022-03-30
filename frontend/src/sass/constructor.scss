@@ -1,0 +1,24 @@
+// SETTINGS
+@import 'settings/settings';
+
+// TOOLS
+@import 'tools/media';
+
+// GENERIC
+@import 'generic/normalize';
+@import 'generic/reset';
+@import 'generic/fonts';
+
+// ELEMENTS
+@import 'elements/page';
+
+// OBJECTS
+@import 'objects/container';
+
+// COMPONENTS
+@import 'components/btn';
+@import 'components/form-section';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/cards-section';
+@import 'components/small-blocks-section';

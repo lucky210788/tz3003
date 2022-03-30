@@ -1,0 +1,29 @@
+$padding: 20px;
+$padding_tablet: 20px;
+$padding_mobile: 10px;
+$max_width: 980px;
+$max_width_tab: 767px;
+$max_width_mob: 480px;
+
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: $max_width;
+  padding-left: $padding;
+  padding-right: $padding;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include media('screen', '<980px') {
+  .container {
+    max-width: $max_width_tab;
+  }
+}
+
+@include media('screen', '<768px') {
+  .container {
+    max-width: $max_width_mob;
+  }
+}

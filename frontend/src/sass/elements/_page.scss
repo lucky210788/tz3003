@@ -1,0 +1,33 @@
+body {
+  color: $primary_color;
+  font-family: $primary_font;
+  font-weight: normal;
+  font-style: normal;
+  background: url('../../images/bg.jpg') top center no-repeat;
+  background-size: cover;
+  padding-bottom: 170px;
+}
+
+.only-mob-inline {
+  display: none !important;
+}
+
+.only-mob {
+  display: none !important;
+}
+
+.only-desc-inline {
+  display: inline-block !important;
+}
+
+.only-desc {
+  display: block !important;
+}
+
+@include media('screen', '<768px') {
+  body {
+    background: url('../../images/bg-mob.jpg') top center no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+  }
+}
